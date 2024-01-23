@@ -19,7 +19,7 @@ from assets.discord_presence import rich_presence
 from assets.applio_javascript import copy_javascript
 
 rich_presence()
-copy_javascript()
+copy_javascript() 
 
 with gr.Blocks(theme="ParityError/Interstellar", title="Applio", head="""<script src="./assets/Applio_script.js"></script>""") as Applio:
     gr.Markdown("# Applio")
